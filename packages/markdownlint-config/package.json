@@ -1,0 +1,29 @@
+{
+  "name": "hansy-f2e-markdownlint-config",
+  "version": "0.0.1",
+  "description": "markdown 规范",
+  "author": "Hansy <hanshunyao_hansy@163.com>",
+  "homepage": "https://github.com/hanshunyao/f2e-spec#readme",
+  "license": "ISC",
+  "main": "index.json",
+  "keywords": [
+    "encode",
+    "markdown",
+    "lint"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanshunyao/f2e-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hanshunyao/f2e-spec/issues"
+  },
+  "peerDependencies": {
+    "markdownlint": "^0.37.4"
+  },
+  "gitHead": "210f4748234435deeeda84a6f1cfc4f46a81da37"
+}
