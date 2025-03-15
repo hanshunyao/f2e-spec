@@ -1,6 +1,6 @@
 {
   "name": "hansy-f2e-commitlint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "description": "Git规范",
   "author": "Hansy <hanshunyao_hansy@163.com>",
