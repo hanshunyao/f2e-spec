@@ -1,0 +1,28 @@
+{
+  "name": "hansy-f2e-commitlint-config",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "Git规范",
+  "author": "Hansy <hanshunyao_hansy@163.com>",
+  "homepage": "https://github.com/hanshunyao/f2e-spec#readme",
+  "keywords": [
+    "encode",
+    "commit",
+    "lint"
+  ],
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanshunyao/f2e-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hanshunyao/f2e-spec/issues"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  }
+}
