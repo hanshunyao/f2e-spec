@@ -18,8 +18,8 @@ export default defineConfig4CustomTheme({
           { text: 'HTML 编码规范', link: '/coding/html.md' },
           { text: 'CSS 编码规范', link: '/coding/css.md' },
           { text: 'JavaScript 编码规范', link: '/coding/javascript.md' },
-          { text: 'Node 编码规范', link: '/coding/node.md' },
           { text: 'Typescript 编码规范', link: '/coding/typescript.md' },
+          { text: 'Node 编码规范', link: '/coding/node.md' },
         ],
       },
       {
@@ -28,6 +28,18 @@ export default defineConfig4CustomTheme({
           { text: 'Git 规范', link: '/engineering/git.md' },
           { text: '文档规范', link: '/engineering/doc.md' },
           { text: 'CHANGELOG 规范', link: '/engineering/changelog.md' },
+        ],
+      },
+      {
+        text: 'NPM包',
+        items: [
+          { text: 'hansy-f2e-eslint-config', link: '/npm/eslint.md' },
+          { text: 'hansy-f2e-stylelint-config', link: '/npm/stylelint.md' },
+          { text: 'hansy-f2e-commitlint-config', link: '/npm/commitlint.md' },
+          {
+            text: 'hansy-f2e-markdownlint-config',
+            link: '/npm/markdownlint.md',
+          },
         ],
       },
     ],
@@ -48,12 +60,12 @@ export default defineConfig4CustomTheme({
             path: '/coding/javascript.md',
           },
           {
-            title: 'Node 编码规范',
-            path: '/coding/node.md',
-          },
-          {
             title: 'Typescript 编码规范',
             path: '/coding/typescript.md',
+          },
+          {
+            title: 'Node 编码规范',
+            path: '/coding/node.md',
           },
         ],
       },
@@ -71,6 +83,18 @@ export default defineConfig4CustomTheme({
           {
             title: 'CHANGELOG 规范',
             path: '/engineering/changelog.md',
+          },
+        ],
+      },
+      {
+        title: 'NPM包',
+        children: [
+          { title: 'hansy-f2e-eslint-config', path: '/npm/eslint.md' },
+          { title: 'hansy-f2e-stylelint-config', path: '/npm/stylelint.md' },
+          { title: 'hansy-f2e-commitlint-config', path: '/npm/commitlint.md' },
+          {
+            title: 'hansy-f2e-markdownlint-config',
+            path: '/npm/markdownlint.md',
           },
         ],
       },
