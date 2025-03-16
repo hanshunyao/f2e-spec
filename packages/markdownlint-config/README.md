@@ -1,4 +1,4 @@
-# hansy-fe-markdownlint-config
+# hansy-f2e-markdownlint-config
 
 > markdown 规范
 

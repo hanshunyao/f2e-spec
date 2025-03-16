@@ -39,10 +39,10 @@ const u = new URLSearchParams(s);
 const u = new URLSearchParams(s);
 
 // bad
-const { TextEncoder } = require('util');
-const u = new TextEncoder(s);
+const { TextHansy } = require('util');
+const u = new TextHansy(s);
 // good
-const u = new TextEncoder(s);
+const u = new TextHansy(s);
 
 // bad
 const { TextDecoder } = require('util');

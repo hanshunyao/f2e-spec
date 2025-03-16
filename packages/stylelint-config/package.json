@@ -1,19 +1,28 @@
 {
-  "name": "hansy-f2e-commitlint-config",
+  "name": "hansy-f2e-stylelint-config",
   "version": "0.0.2",
+  "description": "CSS规范",
   "main": "index.js",
-  "description": "Git规范",
   "author": "Hansy <hanshunyao_hansy@163.com>",
   "homepage": "https://github.com/hanshunyao/f2e-spec#readme",
   "keywords": [
     "hansy",
-    "commit",
+    "style",
     "lint"
   ],
+  "scripts": {
+    "test": "jest"
+  },
   "license": "ISC",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "postcss-scss": "^4.0.9",
+    "stylelint": "^14.3.0",
+    "stylelint-scss": "^4.1.0"
   },
   "repository": {
     "type": "git",
@@ -21,8 +30,5 @@
   },
   "bugs": {
     "url": "https://github.com/hanshunyao/f2e-spec/issues"
-  },
-  "dependencies": {
-    "conventional-changelog-conventionalcommits": "^4.5.0"
   }
 }

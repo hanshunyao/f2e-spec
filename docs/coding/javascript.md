@@ -49,16 +49,16 @@ author:
 
   ```javascript
   // bad - 导致 Uncaught ReferenceError 报错
-  const chenghuai = {}
+  const hansy = {}
   const huaicheng = {}
-  [chenghuai, huaicheng].forEach((jedi) => {
+  [hansy, huaicheng].forEach((jedi) => {
     jedi.father = 'vader'
   })
 
   // good
-  const chenghuai = {};
+  const hansy = {};
   const huaicheng = {};
-  [chenghuai, huaicheng].forEach((jedi) => {
+  [hansy, huaicheng].forEach((jedi) => {
     jedi.father = 'vader';
   });
 

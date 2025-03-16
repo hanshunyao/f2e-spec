@@ -106,13 +106,13 @@ export default defineConfig4CustomTheme({
     footer: {
       createYear: 2023,
       copyrightInfo:
-        'encode studio | <a href="https://github.com/hanshunyao/f2e-spec" target="_blank">github</a>',
+        'hansy-coding | <a href="https://github.com/hanshunyao" target="_blank">github</a>',
     },
 
     extendFrontmatter: {
       author: {
         name: 'hansy',
-        link: 'https://github.com/encode-studio-fe/fe-sepc',
+        link: 'https://github.com/hanshunyao/f2e-spec',
       },
     },
   },
