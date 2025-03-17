@@ -1,6 +1,6 @@
 {
   "name": "hansy-f2e-stylelint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "CSS规范",
   "main": "index.js",
   "author": "Hansy <hanshunyao_hansy@163.com>",

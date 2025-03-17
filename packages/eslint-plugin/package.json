@@ -1,6 +1,6 @@
 {
   "name": "hansy-f2e-eslint-plugin",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "自定义eslint插件",
   "scripts": {
     "test": "jest",

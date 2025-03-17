@@ -1,6 +1,6 @@
 {
   "name": "hansy-f2e-eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "index.js",
   "description": "JavaScript TypeScript Node 规范",
   "author": "Hansy <hanshunyao_hansy@163.com>",
