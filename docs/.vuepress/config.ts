@@ -40,6 +40,7 @@ export default defineConfig4CustomTheme({
             text: 'hansy-f2e-markdownlint-config',
             link: '/npm/markdownlint.md',
           },
+          { text: 'hansy-f2e-eslint-plugin', link: '/npm/eslint-plugin.md' },
         ],
       },
     ],
