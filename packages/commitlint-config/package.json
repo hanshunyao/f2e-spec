@@ -1,6 +1,6 @@
 {
   "name": "hansy-f2e-commitlint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "description": "Git规范",
   "author": "Hansy <hanshunyao_hansy@163.com>",
@@ -24,5 +24,6 @@
   },
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^4.5.0"
-  }
+  },
+  "gitHead": "a5b52d1b2750692c42fff726bd6524204101fca5"
 }

@@ -1,6 +1,6 @@
 {
   "name": "hansy-f2e-markdownlint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "markdown 规范",
   "author": "Hansy <hanshunyao_hansy@163.com>",
   "homepage": "https://github.com/hanshunyao/f2e-spec#readme",
@@ -25,5 +25,5 @@
   "peerDependencies": {
     "markdownlint": "^0.37.4"
   },
-  "gitHead": "50f81f0dbc53b7b5dbe1f5b76115662219a5fc77"
+  "gitHead": "a5b52d1b2750692c42fff726bd6524204101fca5"
 }

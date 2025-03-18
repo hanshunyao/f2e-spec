@@ -1,6 +1,6 @@
 {
   "name": "hansy-f2e-lint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
@@ -98,5 +98,6 @@
   },
   "bugs": {
     "url": "https://github.com/hanshunyao/f2e-spec/issues"
-  }
+  },
+  "gitHead": "a5b52d1b2750692c42fff726bd6524204101fca5"
 }
