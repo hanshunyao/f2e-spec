@@ -1,4 +1,4 @@
-# hansy-f2e-markdownlint-config
+# hansy-f2e-stylelint-config
 
 支持配套的 [stylelint 可共享配置](https://stylelint.io/user-guide/configure)。
 

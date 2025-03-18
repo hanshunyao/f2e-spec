@@ -15,7 +15,7 @@ $ npm install hansy-f2e-eslint-plugin eslint --save-dev
 ```js
 // .eslintrc.js
 module.exports = {
-  plugin: ['hansy-f2e-eslint-config'],
+  plugin: ['hansy-f2e-eslint-plugin'],
   rules: {
     'hansy-f2e-eslint-plugin/no-secret-info': 'error',
   },

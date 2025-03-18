@@ -43,6 +43,10 @@ export default defineConfig4CustomTheme({
           { text: 'hansy-f2e-eslint-plugin', link: '/npm/eslint-plugin.md' },
         ],
       },
+      {
+        text: '脚手架',
+        items: [{ text: 'hansy-f2e-lint', link: '/cli/hansy-f2e-lint.md' }],
+      },
     ],
     sidebar: [
       {
@@ -97,7 +101,12 @@ export default defineConfig4CustomTheme({
             title: 'hansy-f2e-markdownlint-config',
             path: '/npm/markdownlint.md',
           },
+          { text: 'hansy-f2e-eslint-plugin', link: '/npm/eslint-plugin.md' },
         ],
+      },
+      {
+        text: '脚手架',
+        items: [{ text: 'hansy-f2e-lint', link: '/cli/hansy-f2e-lint.md' }],
       },
     ],
     logo: '/img/logo.png',
@@ -133,10 +142,7 @@ export default defineConfig4CustomTheme({
     [
       'one-click-copy',
       {
-        copySelector: [
-          'div[class*="language-"] pre',
-          'div[class*="aside-code"] aside',
-        ],
+        copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'],
         copyMessage: '复制成功',
         duration: 1000,
         showInMobile: false,
